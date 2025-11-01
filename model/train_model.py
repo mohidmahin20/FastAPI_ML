@@ -14,7 +14,7 @@ model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 
 
-#save the model to a joblib file
+#save the model to a joblib file ...
 joblib.dump(model, 'model/iris_model.joblib')
 
 print("Model trained and saved successfully.")
